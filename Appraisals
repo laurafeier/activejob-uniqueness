@@ -47,5 +47,9 @@ appraise 'sidekiq-6.x' do
 end
 
 appraise 'sidekiq-7.x' do
-  gem 'sidekiq', '~> 7.0'
+  gem 'sidekiq', '< 7.3.9'
+end
+
+appraise 'sidekiq-8.x' do
+  gem 'sidekiq', '~> 8.0'
 end

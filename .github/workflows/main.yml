@@ -52,6 +52,8 @@ jobs:
             gemfile: gemfiles/sidekiq_6.x.gemfile
           - ruby: 2.5.9
             gemfile: gemfiles/sidekiq_7.x.gemfile
+          - ruby: 2.5.9
+            gemfile: gemfiles/sidekiq_8.x.gemfile
           - ruby: 2.6.10
             gemfile: gemfiles/activejob_7.0.x.gemfile
           - ruby: 2.6.10
@@ -64,6 +66,8 @@ jobs:
             gemfile: gemfiles/sidekiq_6.x.gemfile
           - ruby: 2.6.10
             gemfile: gemfiles/sidekiq_7.x.gemfile
+          - ruby: 2.6.10
+            gemfile: gemfiles/sidekiq_8.x.gemfile
           - ruby: 2.7.7
             gemfile: gemfiles/activejob_4.2.x.gemfile
           - ruby: 2.7.7
